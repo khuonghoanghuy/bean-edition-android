@@ -1,0 +1,46 @@
+<dialogue box="dialogueBox">
+    <!-- All characters -->
+    <char name="lime" position="left" defaultAnim="neutral" />
+    <char name="bf" position="right" defaultAnim="neutral" />
+
+    <!-- Lines -->
+    <line char="bf" changeDefAnim="neutral" bubble="bf">
+        I wanted a rap battle just to check if u r another dumb impostros like the others
+    </line>
+    <line char="lime" bubble="lime">
+        That is very lame!!!!1!! atleast say hi, where are ur manners??, anyways i'm a crewmate but an actual crewmate this time^^
+    </line>
+    <line char="bf" changeDefAnim="q" bubble="bf">
+        sus
+    </line>
+    <line char="lime" bubble="lime">
+        whar?
+    </line>
+    <line char="bf" changeDefAnim="neutral" bubble="bf">
+        i said your sus
+    </line>    
+    <line char="lime" changeDefAnim="irritated" bubble="lime">
+        how dare you!!!!!!!
+    </line>
+    <line char="bf" changeDefAnim="neutral" bubble="bf">
+        idfc losr
+    </line>
+    <line char="lime" irritated="doubt" bubble="lime">
+        why are you soo mean to other crewmates?!? :'(
+    </line>
+    <line char="bf" changeDefAnim="neutral" bubble="bf">
+        idk girl you  just came out from nowhere
+    </line>
+    <line char="bf" changeDefAnim="neutral" bubble="bf">
+        How do I know youre not the impostor?
+    </line>
+    <line char="lime" irritated="doubt" bubble="lime">
+        whatt :( whatttt no :(( I just said Im crewmate  before 0.565475675676seconds ago cmonn :((((((((((((((((((((((((((((((((((((((((((((((((((
+    </line>
+    <line char="bf" changeDefAnim="angry" bubble="bf">
+        rap battle, you win your not an impostor, easy right?
+    </line>
+    <line char="lime" irritated="neutral" bubble="lime">
+        sur :)
+    </line>
+</dialogue>

@@ -1,0 +1,226 @@
+{
+    "images": [
+        {
+            "file": "daphone.png",
+            "comment": "Da Phone",
+            "scale": 1.3,
+            "color": "#FFFFFF",
+            "credits": ""
+        },
+        {
+            "file": "phone.png",
+            "comment": "Real Phone (why is this part of the gallery)",
+            "scale": 1.3,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "battlepeak.png",
+            "comment": "cursed Among Us battle",
+            "scale": 1.4,
+            "color": "#D61F23"
+        },
+        {
+            "file": "balloonmongus.png",
+            "comment": "balloonmongus",
+            "scale": 1.5,
+            "color": "#FF0000"
+        },
+        {
+            "file": "peakkrimaart.png",
+            "comment": "Is Krima >:))))",
+            "scale": 1.2,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "heliumreal.png",
+            "comment": "Helium Song",
+            "scale": 1.15,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "Black-Freeplay-art-maybe.png",
+            "comment": "Black Freeplay Art???",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "abattle-of0black-and-pink.png",
+            "comment": "ShapeShift Red??? VS Pink Imposter???",
+            "scale": 1.3,
+            "color": "#717778"
+        },
+        {
+            "file": "peakerArt.png",
+            "comment": "whats white imposter doin :/?",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "fanta___.png",
+            "comment": "Wow, a thing!",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "coolassart.png",
+            "comment": "myboi",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "creepyaf.png",
+            "comment": "red art idk",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "difference.png",
+            "comment": "There's a difference dumbass",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "earlyconcept.png",
+            "comment": "White and pink concept",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "family.png",
+            "comment": "wtf is this",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "gyatt.png",
+            "comment": "Woman",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "human.png",
+            "comment": "Human",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "limeidk.png",
+            "comment": "Lime",
+            "scale": 1.8,
+            "color": "#55E859"
+        },
+        {
+            "file": "loveones.png",
+            "comment": "Argument",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "oggreen.png",
+            "comment": "Early green concept",
+            "scale": 1,
+            "color": "#66CC66"
+        },
+        {
+            "file": "red.png",
+            "comment": "red",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "report.png",
+            "comment": "he vented",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "triple_trouble.png",
+            "comment": "Red concept",
+            "scale": 1,
+            "color": "#C72727"
+        },
+        {
+            "file": "woman.png",
+            "comment": "flipping the bird",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "wth.png",
+            "comment": "this shit is getting off hand",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "kill.png",
+            "comment": "kill art",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "balloonfly.png",
+            "comment": "Balloon Fly real!!!",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "blackie.png",
+            "comment": "More Human concepts",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "471_sin_titulo_20240419121018.png",
+            "comment": "ur mom",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "IMG_6495.png",
+            "comment": "Don't ask... Please",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "image0.png",
+            "comment": "how many humans are there",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "Screenshot_-_FlipaClip.png",
+            "comment": "The correct Bean Edition",
+            "scale": 1,
+            "color": "#FFFFFF"
+        },
+        {
+            "file": "infinitylloongus.png",
+            "comment": "balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon balloon gus",
+            "scale": 1,
+            "color": "#FF0000"
+        },
+        {
+            "file": "up.png",
+            "comment": "Only on the Big Screen",
+            "scale": 2,
+            "color": "#6094CE",
+            "credits": "JustAGuy"
+        },
+        {
+            "file": "ballongusxdd.png",
+            "comment": ":(",
+            "scale": 2.4,
+            "color": "#FFFFFF",
+            "credits": "Thomas da Vinci"
+        }
+        /* This is a template
+        {
+            "file": "dummy.png",
+            "comment": "comment_here",
+            "scale": 1,
+            "color": "#FFFFFF",
+            "credits": "owner_of_the_funni"
+        }
+        */
+    ]
+}

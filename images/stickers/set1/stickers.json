@@ -1,0 +1,18 @@
+{
+    "stickers": {
+        "bf": ["bf1"],
+        "red": ["red1", "red2", "red3"],
+        "lime": ["lime1", "lime2", "lime3"],
+        "white": ["white1"],
+        "purple": ["purple1"],
+        "mansur": ["mansur1"],
+        "misc": ["misc1", "misc2"]
+    },
+    "packs": {
+        "all": ["bf", "red", "lime", "white", "purple", "mansur", "misc"],
+        "balloongus": ["bf", "red", "misc"],
+        "lime": ["bf", "lime", "misc"],
+        "paper": ["bf", "white", "misc"],
+        "others": ["bf", "purple", "mansur", "misc"]
+    }
+}

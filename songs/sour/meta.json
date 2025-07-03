@@ -1,0 +1,21 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "lime",
+	"difficulties": [
+		"NORMAL"
+	],
+	"parsedColor": -10962087,
+	"customValues": {
+		"portrait": "lime",
+		"stickerPack": "lime",
+		"stickerSet": 1
+	},
+	"color": "#58BB59",
+	"name": "sour",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Sour",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 158
+}

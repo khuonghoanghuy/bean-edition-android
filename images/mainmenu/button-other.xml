@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="button-other.png">
+	<SubTexture name="idle1" x="0" y="0" width="351" height="47"/>
+	<SubTexture name="select1" x="0" y="47" width="351" height="47"/>
+</TextureAtlas>

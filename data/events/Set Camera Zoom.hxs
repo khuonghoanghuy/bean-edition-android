@@ -1,0 +1,6 @@
+function onEvent(e) {
+    if (e.event.name == "Set Camera Zoom") {
+        var params:Array = e.event.params;
+        defaultCamZoom = params[0];
+    }
+}

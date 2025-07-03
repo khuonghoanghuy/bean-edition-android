@@ -1,0 +1,10 @@
+<character x="285" textSound="dialogue/bf">
+    <anim name="angry" anim="angry" fps="24" />
+    <anim name="happy" anim="happy" fps="24" />
+    <anim name="mad" anim="mad" fps="24" />
+    <anim name="neutral" anim="neutral" fps="24" />
+    <anim name="q" anim="qa" fps="24" />
+    <anim name="realization" anim="realization" fps="24" />
+    <anim name="sad" anim="sad" fps="24" />
+    <anim name="uwu" anim="uwu" fps="24" />
+</character>

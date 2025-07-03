@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"bpm": 160,
+	"difficulties": [
+		"NORMAL"
+	],
+	"displayName": "Sussus Balloongus",
+	"icon": "balloon",
+	"name": "sussus-balloongus",
+	"color": "#C90825",
+	"customValues": {
+		"stickerSet": 1,
+		"stickerPack": "balloongus",
+		"portrait": "balloongus"
+	}
+}

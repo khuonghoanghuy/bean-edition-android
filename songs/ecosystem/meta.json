@@ -1,0 +1,20 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 115,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"displayName": "Ecosystem",
+	"icon": "lime",
+	"name": "ecosystem",
+	"color": "#58BB59",
+	"customValues": {
+		"portrait": "lime",
+		"stickerPack": "lime",
+		"stickerSet": 1
+	}
+}

@@ -1,0 +1,3 @@
+<menu name="Bean Edition Options" desc="Change Bean Edition's options here.">
+    <checkbox id="camMove" name="Camera Movement" desc="If enabled, moves the camera to the sides depending on the note that was just hit" />
+</menu>

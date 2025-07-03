@@ -1,0 +1,7 @@
+<character x="324" y="340" scale="0.3" textSound="dialogue/sus">
+    <anim name="neutral" anim="neutral" fps="24" />
+    <anim name="irritated" anim="irritated" fps="24" />
+    <anim name="exited" anim="exited" fps="24" />
+    <anim name="doubt" anim="doubt" fps="24" />
+    <anim name="oops" anim="oops" fps="24" />
+</character>

@@ -1,0 +1,18 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/airShip/" name="airShip" zoom="0.7">
+	<sprite x="-1065" y="-549" sprite="sky" name="bg" scroll="0"/>
+	<sprite x="100" y="-517" sprite="sun" name="sun" scroll="0"/>
+	<sprite x="-1441" y="280" sprite="backClouds_1" name="backClouds1" scroll="0.4"/>
+	<sprite x="-5975" y="280" sprite="backClouds_1" name="backClouds2" scroll="0.4"/>
+	<sprite x="-1101" y="-549" sprite="cloud2" name="clouds" scroll="0.5"/>
+	<sprite x="-1122" y="654" sprite="ground" name="floor"/>
+	<sprite x="1555" y="-338" sprite="cloud_4" name="movingCloud3"/>
+	<gf x="556" y="81" camxoffset="50" camyoffset="-10"/>
+	<dad x="0" y="48" camyoffset="140" camxoffset="20"/>
+	<bf x="1155" y="74" camyoffset="-20" camxoffset="-40"/>
+	<combo x="1057" y="230"/>
+	<sprite x="2105" y="0" sprite="cloud_1" name="movingCloud2" scroll="1.2"/>
+	<sprite x="1475" y="400" sprite="bigcloud-1" name="movingCloud1" scroll="1.2"/>
+	<sprite x="-1280" y="-800" sprite="overlay" name="overlay" scroll="0" alpha="0.5"/>
+	<ratings x="600" y="480"/>
+</stage>

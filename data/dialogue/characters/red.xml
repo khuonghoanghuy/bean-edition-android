@@ -1,0 +1,8 @@
+<character x="50">
+    <anim name="happy" anim="Hapi" fps="24" />
+    <anim name="lol" anim="LoLl" fps="24" />
+    <anim name="nervous" anim="Nervous" fps="24" />
+    <anim name="serious" anim="Seriouz" fps="24" />
+    <anim name="silly" anim="Sillyy" fps="24" />
+    <anim name="uwu" anim="UwU" fps="24" />
+</character>

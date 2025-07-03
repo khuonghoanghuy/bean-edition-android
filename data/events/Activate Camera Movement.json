@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Do Camera Movement?",
+            "type": "Bool",
+            "defaultValue": true
+        }
+    ]
+}

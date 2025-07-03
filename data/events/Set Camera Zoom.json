@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Value Zoom",
+            "type": "Float(0, 99, 1, 2)",
+            "defaultValue": 1.00
+        }
+    ]
+}

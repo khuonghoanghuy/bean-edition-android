@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Camera Speed",
+            "type": "Float(0.01, 999999999, 1, 2)",
+            "defaultValue": 1
+        }
+    ]
+}

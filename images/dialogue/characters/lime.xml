@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lime.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="neutral0000" x="1268" y="1927" width="630" height="956" frameX="-170" frameY="-88" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="neutral0001" x="1365" y="960" width="636" height="960" frameX="-171" frameY="-82" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="neutral0002" x="2641" y="957" width="633" height="961" frameX="-170" frameY="-70" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="neutral0003" x="2641" y="957" width="633" height="961" frameX="-170" frameY="-70" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="neutral0004" x="634" y="1927" width="634" height="958" frameX="-168" frameY="-80" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="neutral0005" x="634" y="1927" width="634" height="958" frameX="-168" frameY="-80" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="neutral0006" x="634" y="1927" width="634" height="958" frameX="-168" frameY="-80" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="irritated0000" x="685" y="959" width="678" height="956" frameX="-170" frameY="-88" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="irritated0001" x="685" y="0" width="680" height="959" frameX="-169" frameY="-83" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="irritated0002" x="0" y="962" width="677" height="965" frameX="-170" frameY="-70" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="irritated0003" x="0" y="962" width="677" height="965" frameX="-170" frameY="-70" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="irritated0004" x="0" y="0" width="685" height="962" frameX="-168" frameY="-75" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="irritated0005" x="0" y="0" width="685" height="962" frameX="-168" frameY="-75" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="irritated0006" x="0" y="0" width="685" height="962" frameX="-168" frameY="-75" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="exited0000" x="2001" y="953" width="637" height="956" frameX="-170" frameY="-88" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="exited0001" x="1868" y="2885" width="619" height="957" frameX="-174" frameY="-73" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="exited0002" x="3903" y="0" width="618" height="958" frameX="-173" frameY="-67" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="exited0003" x="622" y="2885" width="623" height="960" frameX="-170" frameY="-68" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="exited0004" x="2001" y="0" width="640" height="953" frameX="-168" frameY="-85" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="exited0005" x="0" y="1927" width="634" height="958" frameX="-173" frameY="-80" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="exited0006" x="2641" y="0" width="636" height="957" frameX="-171" frameY="-76" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="exited0007" x="1365" y="0" width="636" height="960" frameX="-171" frameY="-78" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="exited0008" x="1365" y="0" width="636" height="960" frameX="-171" frameY="-78" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="exited0009" x="1365" y="0" width="636" height="960" frameX="-171" frameY="-78" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="doubt0000" x="1245" y="2885" width="623" height="960" frameX="-171" frameY="-82" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="doubt0001" x="0" y="2885" width="622" height="965" frameX="-170" frameY="-66" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="doubt0002" x="3277" y="961" width="623" height="964" frameX="-170" frameY="-67" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="doubt0003" x="3277" y="0" width="626" height="961" frameX="-168" frameY="-77" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="doubt0004" x="3277" y="0" width="626" height="961" frameX="-168" frameY="-77" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="doubt0005" x="3277" y="0" width="626" height="961" frameX="-168" frameY="-77" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="doubt0006" x="3277" y="0" width="626" height="961" frameX="-168" frameY="-77" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="doubt0007" x="3277" y="0" width="626" height="961" frameX="-168" frameY="-77" frameWidth="1080" frameHeight="1080"/>
+	<SubTexture name="oops0000" x="3903" y="958" width="604" height="415" frameX="-210" frameY="-621" frameWidth="1080" frameHeight="1080"/>
+</TextureAtlas>

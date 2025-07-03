@@ -1,0 +1,32 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="1000" folder="stages/daShip/" startCamPosY="600" zoom="0.75" name="daShip">
+	<sprite x="-1142" scroll="1" sprite="sky" y="-429" name="sky"/>
+	<sprite x="-752" scroll="1" sprite="wall" y="-271" scale="0.8" name="wall"/>
+	<solid x="-757" scroll="1" y="800" name="extraFloor" width="3690" height="800" color="#778793"/>
+	<sprite x="-757" scroll="1" sprite="floor" y="537" scale="0.8" name="floor"/>
+
+	<girlfriend x="944" camxoffset="50" y="314" camyoffset="50"/>
+
+	<sprite x="-668" y="-562" sprite="spooky-cunt" alpha="0.6" scale="0.5" name="spooky_cunt">
+		<anim x="0" loop="true" y="0" fps="24" anim="idle" type="loop" name="idle"/>
+	</sprite>
+
+	<sprite x="-602" y="-240" sprite="dedbody" scale="0.45" name="dedbody"/>
+
+	<sprite x="-176" y="600" sprite="Browndie" type="none" scale="0.85" name="Browndie">
+		<anim x="0" loop="false" y="0" fps="15" anim="Browndie brownded0" type="none" name="idle"/>
+	</sprite>
+
+	<dad x="797" y="272" camyoffset="80"/>
+
+	<sprite x="336" y="452" sprite="redkill" type="none" name="redkill">
+		<anim x="0" loop="false" y="0" fps="24" anim="alive" type="none" name="idle"/>
+	</sprite>
+
+	<boyfriend x="1480" y="305" camyoffset="-35"/>
+
+	<sprite x="607" y="-33" sprite="chain1" name="chain1"/>
+	<sprite x="1673" y="-96" sprite="chain2" name="chain2"/>
+
+	<ratings x="1272" y="580"/>
+</stage>

@@ -1,0 +1,20 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 215,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"displayName": "Helium",
+	"icon": "balloon",
+	"name": "helium",
+	"color": "#C90825",
+	"customValues": {
+		"stickerSet": 1,
+		"stickerPack": "balloongus",
+		"portrait": "balloongus"
+	}
+}

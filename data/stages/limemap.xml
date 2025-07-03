@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/limemap/" startCamPosY="600" zoom="0.65" name="limemap">
+	<sprite x="-920" y="-780" name="sky" sprite="sky" scale="0.95" scroll="0"/>
+	<sprite x="-1200" y="-580" sprite="clouds1" name="clouds1_1" scroll="0.2" scale="0.5"/>
+	<sprite x="-2676" y="-580" sprite="clouds1" name="clouds1_2" scroll="0.2" scale="0.5"/>
+	<sprite x="276" y="-580" sprite="clouds1" name="clouds1_3" scroll="0.2" scale="0.5"/>
+	<sprite x="-1078" y="-520" sprite="clouds2" name="clouds2_1" scroll="0.5"/>
+	<sprite x="-4768" y="-580" sprite="clouds2" name="clouds2_2" scroll="0.5"/>
+	<sprite x="-1000" y="-680" name="floor" sprite="floor"/>
+	<gf x="431" y="42"/>
+	<dad x="-64" y="56" camxoffset="40" camyoffset="100"/>
+	<bf x="949" y="0"/>
+	<combo x="831" y="308"/>
+	<sprite x="-1340" y="-535" sprite="clouds3" name="clouds3" scroll="1.5"/>
+	<sprite x="-920" y="-780" name="overlay" sprite="overlay" scale="0.95" scroll="0" alpha="0.5"/>
+</stage>

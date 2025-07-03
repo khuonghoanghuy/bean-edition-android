@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="discord.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="discordwhite0000" x="10" y="10" width="418" height="368"/>
+	<SubTexture name="discordwhite0001" x="438" y="10" width="418" height="368"/>
+	<SubTexture name="discordwhite0002" x="10" y="388" width="418" height="368"/>
+</TextureAtlas>

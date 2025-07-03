@@ -1,0 +1,20 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 160,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"displayName": "Beaning",
+	"icon": "balloon",
+	"name": "beaning",
+	"color": "#C90825",
+	"customValues": {
+		"stickerSet": 1,
+		"stickerPack": "balloongus",
+		"portrait": "balloongus"
+	}
+}

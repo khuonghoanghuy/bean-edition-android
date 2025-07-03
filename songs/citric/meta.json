@@ -1,0 +1,20 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 140,
+	"difficulties": [
+		"NORMAL"
+	],
+	"needsVoices": true,
+	"displayName": "Citric",
+	"icon": "lime",
+	"name": "citric",
+	"color": "#58BB59",
+	"customValues": {
+		"portrait": "lime",
+		"stickerPack": "lime",
+		"stickerSet": 1
+	}
+}
