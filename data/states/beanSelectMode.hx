@@ -77,7 +77,7 @@ function create() {
     FlxTween.tween(freeplayText, {alpha: 1, y: 545}, 0.2, {ease: FlxEase.quartOut, startDelay: 0.05});
     FlxTween.tween(playBigText, {alpha: 1, y: 32}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.05});
 
-	addVPad(LEFT_RIGHT, A_B);
+	addVPad(FlxDPadMode.LEFT_RIGHT, FlxActionMode.A_B);
 	addVPadCamera();
 	vPad.visible = true;
 }
