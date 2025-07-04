@@ -123,7 +123,7 @@ function create() {
 
     changeSelection(0);
 
-    addVPad(LEFT_RIGHT, B);
+    addVPad(FlxDPadMode.LEFT_RIGHT, FlxActionMode.B);
 	addVPadCamera();
 	vPad.visible = true;
 }
