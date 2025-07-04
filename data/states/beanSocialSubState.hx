@@ -46,7 +46,7 @@ function create() {
     FlxTween.tween(discord, {alpha: 0.6}, 0.1, {ease: FlxEase.quartInOut});
     FlxTween.tween(pageTitle, {alpha: 1, y: 150}, 0.1, {ease: FlxEase.quartInOut});
 
-    addVPad(NONE, B);
+    addVPad(FlxDPadMode.NONE, FlxActionMode.B);
 	addVPadCamera();
 	vPad.visible = true;
 }
