@@ -9,6 +9,8 @@ import funkin.options.Options;
 import funkin.options.OptionsMenu;
 import lime.app.Application;
 import sys.FileSystem;
+import funkin.mobile.controls.FlxDPadMode;
+import funkin.mobile.controls.FlxActionMode;
 
 var codenameVersion = Application.current.meta.get("version");
 var beanVersion = "1.0 DEMO";
@@ -119,6 +121,10 @@ function create() {
 	versionText.antialiasing = true;
 	versionText.y -= versionText.height;
 	add(versionText);
+
+	addVPad(NONE, A_B_X_Y);
+	addVPadCamera();
+	vPad.visible = true;
 }
 
 function createStars() {
@@ -338,12 +344,14 @@ var totalMenuItems:Int = mainOptions.length + otherOptions.length + exitOption.l
 function handleInput() {
 	if (!allowKeyboard) return;
 
-	if (FlxG.keys.justPressed.SEVEN) {
+	if (FlxG.keys.justPressed.SEVEN || vPad.buttonY.justPressed) {
 		persistentUpdate = !(persistentDraw = true);
+		removeVPad();
 		openSubState(new EditorPicker());
 	}
 
-	if (controls.SWITCHMOD) {
+	if (controls.SWITCHMOD || vPad.buttonX.justPressed) {
+		removeVPad();
 		openSubState(new ModSwitchMenu());
 		persistentUpdate = !(persistentDraw = true);
 	}

@@ -1,3 +1,6 @@
+import funkin.mobile.controls.FlxDPadMode;
+import funkin.mobile.controls.FlxActionMode;
+
 var descText:FunkinText;
 
 var youtube:FlxSprite;
@@ -42,6 +45,10 @@ function create() {
     FlxTween.tween(youtube, {alpha: 0.6}, 0.1, {ease: FlxEase.quartInOut});
     FlxTween.tween(discord, {alpha: 0.6}, 0.1, {ease: FlxEase.quartInOut});
     FlxTween.tween(pageTitle, {alpha: 1, y: 150}, 0.1, {ease: FlxEase.quartInOut});
+
+    addVPad(NONE, B);
+	addVPadCamera();
+	vPad.visible = true;
 }
 
 var selected:Bool = false;
@@ -49,7 +56,8 @@ var curSelected:Int = 0;
 function update(elapsed:Float) {
     if (!selected){
         if (FlxG.keys.justPressed.ESCAPE) {
-            close();
+			MusicBeatState.skipTransOut = true;
+			FlxG.resetState();
         }
 
         if (FlxG.mouse.overlaps(youtube)) {

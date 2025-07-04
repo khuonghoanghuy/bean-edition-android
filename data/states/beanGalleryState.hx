@@ -7,6 +7,8 @@ import flixel.tweens.FlxTween.FlxTweenType;
 import flixel.util.FlxSpriteUtil;
 import funkin.backend.shaders.CustomShader;
 import funkin.backend.utils.FlxInterpolateColor;
+import funkin.mobile.controls.FlxDPadMode;
+import funkin.mobile.controls.FlxActionMode;
 
 var bg:FlxSprite;
 
@@ -120,6 +122,10 @@ function create() {
     interpolateColor = new FlxInterpolateColor(bg.color);
 
     changeSelection(0);
+
+    addVPad(LEFT_RIGHT, B);
+	addVPadCamera();
+	vPad.visible = true;
 }
 
 function update(elapsed:Float) {

@@ -7,8 +7,10 @@ import funkin.backend.scripting.events.WeekSelectEvent;
 
 import funkin.backend.utils.DiscordUtil;
 import funkin.savedata.FunkinSave;
-
 import funkin.backend.week.Week;
+
+import funkin.mobile.controls.FlxDPadMode;
+import funkin.mobile.controls.FlxActionMode;
 
 // loaf say using the public beta one
 var bg:FlxSprite;
@@ -74,6 +76,10 @@ function create() {
 		menuItem.updateHitbox();
 		menuItems.add(menuItem);
 	}
+
+	addVPad(LEFT_RIGHT, A_B);
+	addVPadCamera();
+	vPad.visible = true;
 }
 
 function update(elapsed:Float) {
@@ -94,6 +100,11 @@ function update(elapsed:Float) {
 	} else {
 		exitbutton.alpha = 0.6;
 		isHovering = false;
+	}
+
+	if (controls.BACK) {
+		FlxG.sound.play(Paths.sound('menu/confirm'));
+		FlxG.switchState(new MainMenuState());
 	}
 
 	if (!selectedSomethin)

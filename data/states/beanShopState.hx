@@ -5,6 +5,8 @@ import funkin.backend.MusicBeatGroup;
 import funkin.backend.shaders.CustomShader;
 import funkin.game.HealthIcon;
 import AttachedHealthIcon;
+import funkin.mobile.controls.FlxDPadMode;
+import funkin.mobile.controls.FlxActionMode;
 
 var textTitleEachOptions:FunkinText;
 var line:FlxSprite;
@@ -109,7 +111,9 @@ function create() {
 		item.targetY = i - curSelected;
 	}
 
-	// changeSelection();
+	addVPad(UP_DOWN, A_B);
+	addVPadCamera();
+	vPad.visible = true;
 }
 
 function getPreviewSprite(name:String) {

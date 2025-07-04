@@ -5,6 +5,8 @@ import funkin.backend.utils.CoolUtil;
 import flixel.util.FlxAxes;
 import flixel.FlxObject;
 import flixel.effects.FlxFlicker;
+import funkin.mobile.controls.FlxDPadMode;
+import funkin.mobile.controls.FlxActionMode;
 
 var storyButton:FlxSprite;
 var storyText:FunkinText;
@@ -148,7 +150,8 @@ function update(elapsed:Float)
 		{
 			FlxG.mouse.visible = true;
 			FlxG.sound.play(Paths.sound('menu/cancel'));
-			close();
+			MusicBeatState.skipTransOut = true;
+			FlxG.resetState();
 		}
 	}
 }

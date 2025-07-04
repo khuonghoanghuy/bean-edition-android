@@ -167,11 +167,9 @@ function create() {
 
     changeGamemode(0);
 
-    #if mobile
-	addVPad(FULL, A_B);
+	addVPad(FULL, A_B_C_X_Y);
 	addVPadCamera();
 	vPad.visible = true;
-	#end
 }
 
 function createStars() {
@@ -255,27 +253,27 @@ function handleInput(elapsed:Float) {
     if (pageChangeDelay > 0) pageChangeDelay -= elapsed;
     else pageChangeDelay = 0;
 
-    if (FlxG.keys.justPressed.Q) {
+    if (FlxG.keys.justPressed.Q || vPad.buttonX.justPressed) {
         pageArrowPressed(true);
 		changePage(-1);
     }
-    if (FlxG.keys.justPressed.E) {
+    if (FlxG.keys.justPressed.E || vPad.buttonY.justPressed) {
         pageArrowPressed(false);
 		changePage(1);
     }
 
-    if (controls.UP_P || FlxG.mouse.wheel > 0) {
+    if (controls.UP_P) {
         changeSelection(-1);
     }
-    if (controls.DOWN_P || FlxG.mouse.wheel < 0) {
+    if (controls.DOWN_P) {
         changeSelection(1);
     }
 
-    if (FlxG.keys.justPressed.TAB) {
+    if (FlxG.keys.justPressed.TAB || vPad.buttonC.justPressed) {
         changeGamemode(1);
     }
 
-    if (controls.ACCEPT || FlxG.mouse.justPressed) {
+    if (controls.ACCEPT) {
         playSelectedSong();
     }
 
