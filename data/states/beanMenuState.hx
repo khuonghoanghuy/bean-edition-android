@@ -122,7 +122,7 @@ function create() {
 	versionText.y -= versionText.height;
 	add(versionText);
 
-	addVPad(NONE, A_B_X_Y);
+	addVPad(FlxDPadMode.NONE, FlxActionMode.A_B_X_Y);
 	addVPadCamera();
 	vPad.visible = true;
 }
