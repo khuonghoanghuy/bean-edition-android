@@ -12,6 +12,8 @@ import funkin.game.HealthIcon;
 import funkin.options.Options;
 import funkin.savedata.FunkinSave;
 import funkin.savedata.FunkinSave.HighscoreChange;
+import funkin.mobile.controls.FlxDPadMode;
+import funkin.mobile.controls.FlxActionMode;
 
 /**
  * TODO:
@@ -167,7 +169,7 @@ function create() {
 
     changeGamemode(0);
 
-	addVPad(FULL, A_B_C_X_Y);
+	addVPad(FlxDPadMode.FULL, FlxActionMode.A_B_C_X_Y);
 	addVPadCamera();
 	vPad.visible = true;
 }
