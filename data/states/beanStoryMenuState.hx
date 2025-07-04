@@ -77,7 +77,7 @@ function create() {
 		menuItems.add(menuItem);
 	}
 
-	addVPad(LEFT_RIGHT, A_B);
+	addVPad(FlxDPadMode.LEFT_RIGHT, FlxActionMode.A_B);
 	addVPadCamera();
 	vPad.visible = true;
 }
