@@ -111,7 +111,7 @@ function create() {
 		item.targetY = i - curSelected;
 	}
 
-	addVPad(UP_DOWN, A_B);
+	addVPad(FlxDPadMode.UP_DOWN, FlxActionMode.A_B);
 	addVPadCamera();
 	vPad.visible = true;
 }
